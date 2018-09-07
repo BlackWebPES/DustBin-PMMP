@@ -8,6 +8,6 @@ description:
 
 permissions:
   dustbin.cmd:
-    description: DustBin main command
+    description:
     default: true
 ...
