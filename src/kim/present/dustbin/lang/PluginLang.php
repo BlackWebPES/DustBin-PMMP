@@ -62,7 +62,7 @@ class PluginLang{
 		if($resoruce !== null){
 			$this->fallbackLang = array_map("stripcslashes", parse_ini_string(stream_get_contents($resoruce), false, INI_SCANNER_RAW));
 		}else{
-			$plugin->getLogger()->error("Missing fallback language file");
+			$plugin->getLogger()->error("missing fallback language file");
 		}
 	}
 
